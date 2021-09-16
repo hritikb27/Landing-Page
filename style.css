@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: auto;
+}
+
+header{
+    background-color: #1F2937;
+    color: white;
+    height: 35vh;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right-header{
+    display: flex;
+    gap: 16px;
+}
+
+.left-header{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main{
+    width: 20vw;
+}
+
+.main button{
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+}
+
+.header-2 div img{
+    width: 25vw;
+    height: 25vh;
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.content div{
+    max-width: 10vw;
+}
+
+.content div img{
+    border-radius: 15px;
+    border: 2px solid #3882f6;
+    width: 7vw;
+    height: 14vh;
+    background-color: whitesmoke;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    height: 20vh;
+}
+
+.mid p{
+    display: flex;
+    align-self: center;
+    width: 45%;
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#special{
+    display: flex;
+    align-self: flex-end;
+    font-weight: bolder;
+    margin-top: 0;
+    font-size: 26px;
+    font-style: normal;
+}
+
+.end div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 4px;
+    margin: auto;
+}
+
+
+.end div .end-con{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.end div .end-con #end-p{
+    font-weight: bolder;
+}
+
+.end div button{
+    box-sizing: border-box;
+    height: 3vh;
+    width: 6vw;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 6.5px;
+    color: white;
+    overflow: hidden;
+}
