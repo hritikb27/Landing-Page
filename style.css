@@ -1,14 +1,14 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     margin: auto;
 }
 
 header{
     background-color: #1F2937;
     color: white;
-    height: 35vh;
+    min-height: 45vh;
 }
 
 header a{
@@ -42,6 +42,7 @@ header a{
 
 .main{
     width: 20vw;
+    margin: 40px 0;
 }
 
 .main button{
@@ -49,6 +50,8 @@ header a{
     color: white;
     border: 1px solid #3882f6;
     border-radius: 5px;
+    width: 4vw;
+    height: 3vh;
 }
 
 .header-2 div img{
@@ -58,11 +61,22 @@ header a{
     opacity: 0.5;
 }
 
+.header-2 .img{
+    position: relative;
+}
+
+.header-2 .img p{
+    position: absolute;
+    top: 80px;
+    left:100px;
+}
+
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
 
 .content{
@@ -89,16 +103,18 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
     background-color: #e5e7eb;
     color: #1f2937;
-    height: 20vh;
+    height: 25vh;
 }
 
 .mid p{
     display: flex;
     align-self: center;
     width: 45%;
-    font-size: 28px;
+    height: 11vh;
+    font-size: 24px;
     font-weight: lighter;
     font-style: italic;
 }
@@ -108,8 +124,12 @@ main{
     align-self: flex-end;
     font-weight: bolder;
     margin-top: 0;
-    font-size: 26px;
+    font-size: 22px;
     font-style: normal;
+}
+
+.end{
+    margin-top: 50px;
 }
 
 .end div{
@@ -118,8 +138,8 @@ main{
     justify-content: center;
     background-color: #3882f6;
     color: white;
-    width: 40vw;
-    height: 10vh;
+    width: 45vw;
+    height: 12vh;
     border-radius: 4px;
     margin: auto;
 }
@@ -145,4 +165,13 @@ main{
     border-radius: 6.5px;
     color: white;
     overflow: hidden;
+}
+
+footer{
+    display: flex;
+    gap: 10px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    margin-top: 50px;
 }
